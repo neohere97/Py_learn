@@ -1,0 +1,39 @@
+{
+    "ProjectID":"123D2018",
+    "FunctionalBlocks":{
+        "Block1":{
+            "BlockType":"ADD",
+            "BlockName":"ADD_2",
+            "Inputs":{
+                "IN0Name":"IN0val",
+                "IN1Name":"IN1val"
+            },
+            "Output":"OUTval",
+            "InputConnections":{
+                "IN0":"OUT_ADD_1",
+                "IN1":"variable_3"
+            },
+            "OutputConnection":"variable_4",
+            "DataType":"REAL"
+        },
+        "Block2":{
+            "BlockType":"ADD",
+            "BlockName":"ADD_1",
+            "Inputs":{
+                "IN0Name":"IN0val",
+                "IN1Name":"IN1val"
+            },
+            "Output":"OUTval",
+            "InputConnections":{
+                "IN0":"variable_0",
+                "IN1":"variable_1"
+            },
+            "OutputConnections":"IN0_ADD_2",
+            "DataType":"REAL"
+                        
+               
+        }
+           
+        
+    }
+}
